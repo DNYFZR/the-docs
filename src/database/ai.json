@@ -1,0 +1,66 @@
+{
+  "AI" : {
+    "Perplexity Labs App" : {
+      "description" : "AI chat playground", 
+      "link" : "https://labs.perplexity.ai/", 
+      "image" : "https://skillicons.dev/icons?i=ai",
+      "tags" : ["AI", "Web App"]
+    },
+    "NextJS AI App" : {
+      "description" : "AI chat app built by the NextJS team",
+      "link" : "https://chat.vercel.ai/",
+      "image" : "https://camo.githubusercontent.com/9771a2d4a7366d3c6d4793e17104eba9e88f0aec82f7165bfe6871455c26cb2c/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313636323133303535392f6e6578746a732f49636f6e5f6461726b5f6261636b67726f756e642e706e67",
+      "tags" : ["AI", "Web App"]
+    },
+    "You AI Search App" : {
+      "description" : "AI search engine",
+      "link" : "https://you.com/",
+      "image" : "https://cdn.you.com/img/shared/logos/ydc-logo.svg",
+      "tags" : ["AI", "Web App"]
+    }
+  },
+  "Machine Learning" : {
+    "Tensorflow Neural Network Playground" : {
+      "description" : "Interactive visual representation of nerual networks",
+      "link" : "https://playground.tensorflow.org/",
+      "image" : "https://skillicons.dev/icons?i=gcp",
+      "tags" : ["AI", "Machine Learning" ]
+    },
+    "Making Friends with Machine Learning" : {
+      "description" : "Extensive series on machine learning from the ground up by Cassie Kozyrkov (Cheif Decision Scientist @ Google).", 
+      "link" : "https://www.youtube.com/playlist?list=PLRKtJ4IpxJpDxl0NTvNYQWKCYzHNuy2xG", 
+      "image" : "https://skillicons.dev/icons?i=gcp",
+      "tags" : ["AI", "Machine Learning"]
+    },
+    "Seeing Theory" : {
+      "description" : "Visual education in probability & statistics",
+      "link" : "https://seeing-theory.brown.edu/",
+      "image" : "https://skillicons.dev/icons?i=htmx",
+      "tags" : ["AI", "Machine Learning"]
+    },
+    "Made with ML" : {
+      "description" : "Guides you from conception to production",
+      "link" : "https://madewithml.com/#mlops",
+      "image" : "https://skillicons.dev/icons?i=ai",
+      "tags" : ["AI", "Machine Learning", "DevOps"]
+    },
+    "Intro to Deep Learning" : {
+      "description" : "Introductory course in deep neural netwroks, from MIT",
+      "link" : "http://introtodeeplearning.com/",
+      "image" : "https://avatars.githubusercontent.com/u/7487334?s=200&v=4",
+      "tags" : ["AI", "Machine Learning"]
+    },
+    "Visual Intro to ML pt.1" : {
+      "description": "",
+      "link" : "http://www.r2d3.us/visual-intro-to-machine-learning-part-1/", 
+      "image" : "https://skillicons.dev/icons?i=ai",
+      "tags" : ["AI", "Machine Learning"]
+    },
+    "Visual Intro to ML pt.2" : {
+      "description": "",
+      "link" : "http://www.r2d3.us/visual-intro-to-machine-learning-part-2/", 
+      "image" : "https://skillicons.dev/icons?i=ai",
+      "tags" : ["AI", "Machine Learning"]
+    }
+  }
+}

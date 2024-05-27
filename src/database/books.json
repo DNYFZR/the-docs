@@ -1,0 +1,32 @@
+{
+  "Data Engineering" : {
+    "Learning Spark" : {
+      "description" : "Introduction to programming with the Apache Spark framework",
+      "link" : "https://pages.databricks.com/rs/094-YMS-629/images/LearningSpark2.0.pdf", 
+      "image" : "https://m.media-amazon.com/images/I/81qxKDZyIgL._AC_UF894,1000_QL80_.jpg",
+      "tags" : ["Data Engineering", "Machine Learning", "Python", "SQL"]
+    },
+    "Fundamentals of Data Engineering" : {
+      "description" : "Excellent book covering all important aspects of modern data engineering",
+      "link" : "https://go.redpanda.com/fundamentals-of-data-engineering",
+      "image" : "https://m.media-amazon.com/images/I/81+oMD7Lm7L._AC_UF894,1000_QL80_.jpg",
+      "tags" : ["Data Engineering"]
+    }
+  },
+  "Programming" : {
+    "Rust Atomics & Locks" : {
+      "description" : "Low level concurrent programming in the Rust ecosystem",
+      "link" : "https://marabos.nl/atomics/",
+      "image" : "https://m.media-amazon.com/images/I/81WpA78jtqL._AC_UF894,1000_QL80_.jpg",
+      "tags" : ["Software Engineering"]
+    }
+  },
+  "Data Science" : {
+    "Python for Data Science" : {
+      "description" : "Intro to data science with Python",
+      "link" : "https://jakevdp.github.io/PythonDataScienceHandbook/", 
+      "image" : "https://jakevdp.github.io/PythonDataScienceHandbook/figures/PDSH-cover.png",
+      "tags" : ["Programming", "Python", "Data Engineering"]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "Deployment" : {
+    "Azure Container App Deployment Guide" : {
+      "description" : "Guide on building & deploying a container application in Azure cloud",
+      "link" : "https://thomasthornton.cloud/2022/02/11/deploy-to-azure-container-app-from-azure-container-registry-using-a-ci-cd-azure-devops-pipeline-and-azure-cli%EF%BF%BC/",
+      "image" : "https://skillicons.dev/icons?i=azure",
+      "tags" : ["Azure", "DevOps", "Software Engineering"]
+    },
+    "Serving ML Models with FastAPI" : {
+      "description" : "Devleopment guide for building APIs for ML models using FastAPI",
+      "link" : "https://testdriven.io/blog/fastapi-streamlit/",
+      "image" : "https://skillicons.dev/icons?i=fastapi",
+      "tags" : ["DevOps", "Software Engineering", "API", "Machine Learning", "Backend"] 
+    },
+    "Azure SQL Server Deployment" : {
+      "description" : "Extensive YouTube playlist from Microsoft, covering all aspects of setup & management of Azure SQL Server DBs",
+      "link" : "https://www.youtube.com/playlist?list=PLlrxD0HtieHi5c9-i_Dnxw9vxBY-TqaeN",
+      "image" : "https://skillicons.dev/icons?i=azure",
+      "tags" : ["Azure", "Data Engineering", "SQL"]
+    },
+    "ML Ops Sample Project" : {
+      "description" : "Example of E2E build & deployment for machine learning, using Azure DevOps", 
+      "link" : "https://dev.azure.com/bekeen/_git/MLOps-Example-Project", 
+      "image" : "https://skillicons.dev/icons?i=azure",
+      "tags" : ["DevOps", "Machine Learning", "Azure"]
+    }
+  }
+}
