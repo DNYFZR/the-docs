@@ -1,0 +1,80 @@
+#root {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.logo {
+  position: absolute;
+  left: 2vh;
+  top: 2vh;
+  height: 6em;
+}
+
+/* App Controller */
+.app-control {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.app-control-button {
+  color: gainsboro;
+  border: none;
+  font-weight: bold;
+}
+
+.app-control-button-selected {  
+  border-bottom: 1px dashed lightskyblue;
+  font-weight: bold;
+  border-radius: 0pc;
+}
+
+.app-element{
+  padding-top: 2vh;
+  }
+
+/* Components */
+
+
+/* Render Links */
+.content-section {
+  padding: 1em;
+  border-top: 1px dashed whitesmoke;
+}
+
+.content-primary {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1em;
+}
+
+.content-secondary {
+  display: flex;
+  flex-direction: column;
+  flex: 20%;
+  padding: 1em;
+  justify-content: space-evenly;
+}
+
+.content-image {
+  width: calc(16px + 6vw);
+  border-radius: 8px;
+}
+
+.content-tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 16%;
+  justify-content: center;
+  align-items: center;
+}
+
+.tag-button {
+  background-color: rgb(157, 117, 16);
+  font-size: small;
+  flex-wrap: nowrap;
+}
