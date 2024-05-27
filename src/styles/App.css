@@ -7,9 +7,9 @@
 
 .logo {
   position: absolute;
-  left: 2vh;
+  left: 2vw;
   top: 2vh;
-  height: 6em;
+  height: calc(8px + 4vw);
 }
 
 /* App Controller */
@@ -37,6 +37,17 @@
 
 /* Components */
 
+/* Switch */
+.cc-button {
+  border: none;
+  font-size: calc(8px + 1vmin);
+  font-weight: bold; 
+}
+
+.cc-button-selected {
+  background-color: rgb(155, 11, 78);  
+}
+
 
 /* Render Links */
 .content-section {
@@ -54,8 +65,9 @@
 .content-secondary {
   display: flex;
   flex-direction: column;
-  flex: 20%;
+  flex: 25%;
   padding: 1em;
+  padding-bottom: 2em;
   justify-content: space-evenly;
 }
 
