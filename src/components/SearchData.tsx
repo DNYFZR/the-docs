@@ -13,7 +13,7 @@ export interface Data {
   };
 }
 
-const SearchResult: React.FC<{ data: Data }> = ({ data }) => {
+const DisplayResult: React.FC<{ data: Data }> = ({ data }) => {
   return (
     <div>
       {Object.keys(data).map((primaryKey) => (
@@ -48,4 +48,4 @@ const SearchResult: React.FC<{ data: Data }> = ({ data }) => {
   );
 };
 
-export default SearchResult;
+export default DisplayResult;
