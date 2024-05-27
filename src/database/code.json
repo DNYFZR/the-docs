@@ -1,0 +1,68 @@
+{
+  "Typescript " : {
+    "Total Typescript" : {
+      "description" : "Guides & tutorials for all levels of Typescript programmers",
+      "link" : "https://www.totaltypescript.com/tutorials",
+      "image" : "https://skillicons.dev/icons?i=ts",
+      "tags" : ["Programming", "Typescript", "Software Engineering"]
+    },
+    "Hands-on React" : {
+      "description" : "Practical introduction to React using Javascript or Typescript",
+      "link" : "https://handsonreact.com/docs/",
+      "image" : "https://skillicons.dev/icons?i=react",
+      "tags" : ["Programming", "Typescript", "Javascript"]
+    }
+  },
+  "Rust" : {
+    "Intro to Rust" : {
+      "description" : "Setup & overview of the Rust programming language",
+      "link" : "https://blog.logrocket.com/getting-up-to-speed-with-rust/",
+      "image" : "https://skillicons.dev/icons?i=rust",
+      "tags" : ["Programming", "Rust", "Software Engineering"]
+    },
+    "Rust Configuration" : {
+      "description" : "Guide on the configuration (cfg) system in Rust", 
+      "link" : "https://blog.parker-codes.dev/posts/rusts-cfg-attribute",
+      "image" : "https://skillicons.dev/icons?i=rust",
+      "tags" : ["Programming", "Rust", "Software Engineering"]
+    },
+    "Rust File IO" : {
+      "description" : "Introduction to file I/O in the Rust ecosystem",
+      "link" : "https://dev.to/oliverjumpertz/how-to-write-files-in-rust-m06",
+      "image" : "https://skillicons.dev/icons?i=rust",
+      "tags" : ["Programming", "Rust", "Software Engineering"]
+    },
+    "Awesome Rust" : {
+      "description" : "GitHub repo with links to a very wide range of applications, tools & libraries in the Rust ecosystem",
+      "link" : "https://github.com/rust-unofficial/awesome-rust",
+      "image" : "https://skillicons.dev/icons?i=rust",
+      "tags" : ["Programming", "Rust", "Software Engineering", "GitHub"]
+    }
+  },
+  "Python" : {
+    "Ultimate FastAPI" : {
+      "description" : "Extensive tutorial, covering full stack development using FastAPI and React",
+      "link" : "https://christophergs.com/tutorials/ultimate-fastapi-tutorial-pt-1-hello-world/",
+      "image" : "https://skillicons.dev/icons?i=fastapi",
+      "tags" : ["Programming", "Software Engineering", "Python", "Typescript", "Javascript", "React"]
+    },
+    "OOP Design Patterns (Python)" : {
+      "description" : "Guide through implementation of common design patterns in Python",
+      "link" : "https://python-patterns.guide/",
+      "image" : "https://skillicons.dev/icons?i=py",
+      "tags" : ["Programming", "Software Engineering", "Python"]
+    },
+    "The Python Tutorials" : {
+      "description" : "OOP, RegEx, adv concepts GUI programming",
+      "link" : "https://www.pythontutorial.net/",
+      "image" : "https://skillicons.dev/icons?i=py",
+      "tags" : ["Programming", "Python", "Software Engineering"]
+    },
+    "Make Me An Analyst" : {
+      "description" : "Programming (Python & R) & statistical analytics learning materials",
+      "link" : "https://makemeanalyst.com/",
+      "image" : "https://skillicons.dev/icons?i=regex",
+      "tags" : ["Programming", "Python", "R", "Data Science"]
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "Software Engineering" : {
+    "The Algorithms" : {
+      "description" : "Implementation of data structures & algorithms in most languages",
+      "link" : "https://github.com/TheAlgorithms",
+      "image" : "https://avatars.githubusercontent.com/u/20487725?s=200&v=4",
+      "tags" : ["Programming", "Software Engineering"]
+    },
+    "The Missing Semester" : {
+      "description" : "MIT course covering elements missed in traditional CS education",
+      "link" : "https://missing.csail.mit.edu/",
+      "image" : "https://avatars.githubusercontent.com/u/7487334?s=200&v=4",
+      "tags" : ["Software Engineering", "Programming", "Documentation", "Version Control"]
+    },
+    "Big O Notation" : {
+      "description" : "Article explaining the concept & impact of big O in development",
+      "link" : "https://web.mit.edu/16.070/www/lecture/big_o.pdf",
+      "image" : "https://avatars.githubusercontent.com/u/7487334?s=200&v=4",
+      "tags" : ["Programming", "Software Engineering"]
+    },
+    "Patterns.dev" : {
+      "description" : "Software architecture design pattern study guide", 
+      "link" : "https://www.patterns.dev/", 
+      "image" : "https://res.cloudinary.com/ddxwdqwkr/image/upload/c_scale,w_2800/v1635050505/patterns.dev/Wallpaper_3.jpg",
+      "tags" : ["Programming", "Software Engineering"]
+    }
+  },
+  "Roadmaps" : {
+    "Developer Roadmaps" : {
+      "description" : "Roadmaps for developers",
+      "link" : "https://roadmap.sh/",
+      "image" : "https://skillicons.dev/icons?i=htmx",
+      "tags" : ["Programming", "Software Engineering", "Data Engineering" ]
+    },
+    "Data Engineering Roadmap" : {
+      "description" : "Roadmap of data engineering careers by Seattle Data Guy", 
+      "link" : "https://drive.google.com/file/d/13U2jrqXGDOIRuM1alAd43aqUT6qieMF0/view", 
+      "image" : "https://skillicons.dev/icons?i=dynamodb",
+      "tags" : ["Data Engineering", "Software Engineering", "Data"]
+    },
+    "Awesome Data Engineering" : {
+      "description" : "Roadmaps for a wide range of data engineering skills",
+      "link" : "https://awesomedataengineering.com/",
+      "image" : "https://skillicons.dev/icons?i=dynamodb",
+      "tags" : ["Data Engineering"]
+    }
+  }
+}

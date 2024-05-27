@@ -1,0 +1,40 @@
+{
+  "API" : {
+    "Intro to APIs" : {
+      "description" : "Introductory guide to REST APIs",
+      "link" : "https://www.skiplevel.co/blog/part-2-rest-api-components-how-to-read-them",
+      "image" : "https://skillicons.dev/icons?i=htmx",
+      "tags" : ["API", "Guide", "Backend"]
+    },
+    "Public APIs" : {
+      "description" : "Excellent source of public APIs", 
+      "link" : "https://publicapis.dev/",
+      "image" : "https://skillicons.dev/icons?i=htmx",
+      "tags" : ["API", "Open Source", "Data"]
+    },
+    "Deck of Cards" : {
+      "description" : "Open API for generating card decks", 
+      "link" : "https://deckofcardsapi.com/",
+      "image" : "https://skillicons.dev/icons?i=htmx",
+      "tags": ["Gaming", "API", "Data"]
+    },
+    "Carbon Intensity API" : {
+      "description": "National Grid live & historical carbon intensity and generation mix data", 
+      "link": "https://api.carbonintensity.org.uk/",
+      "image" : "https://skillicons.dev/icons?i=htmx",
+      "tags" : ["Energy", "Data", "API"]
+    },
+    "Climate API" : {
+      "description" : "Wide range of live & modelled climate data API sources", 
+      "link" : "https://open-meteo.com/en/docs/climate-api",
+      "image" : "https://skillicons.dev/icons?i=htmx",
+      "tags" : ["Energy", "Data", "API", "AI"]
+    },
+    "UCI Machine Learning" : {
+      "description" : "Large repository of datasets for various AI / ML project",
+      "link" : "https://archive.ics.uci.edu/",
+      "image" : "https://skillicons.dev/icons?i=dynamodb",
+      "tags" : ["Machine Learning", "AI", "Data"]
+    }
+  }
+}
