@@ -17,8 +17,8 @@ const ComponentSwitch: React.FC<SwitchProps> = ({ cmap }) => {
   const ComponentToRender = cmap[selectedComponent];
 
   return (
-    <div>
-      <header className='App-header'>
+    <>
+      <header>
         {Object.keys(cmap).map((componentKey) => (
           <button
           key={componentKey}
@@ -30,8 +30,10 @@ const ComponentSwitch: React.FC<SwitchProps> = ({ cmap }) => {
         ))}
       </header>
       
-      <ComponentToRender />
-    </div>
+      <div className='app-element'>
+        <ComponentToRender />
+      </div>
+    </>
   );
 };
 

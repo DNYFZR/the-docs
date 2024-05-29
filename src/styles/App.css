@@ -12,32 +12,14 @@
   height: calc(8px + 4vw);
 }
 
-/* App Controller */
-.app-control {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.app-control-button {
-  color: gainsboro;
-  border: none;
-  font-weight: bold;
-}
-
-.app-control-button-selected {  
-  border-bottom: 1px dashed lightskyblue;
-  font-weight: bold;
-  border-radius: 0pc;
-}
-
-.app-element{
-  padding-top: 2vh;
-  }
 
 /* Components */
 
-/* Switch */
+/* App Controller */
+.app-element{
+  padding-top: 1vh;
+  }
+
 .cc-button {
   border: none;
   font-size: calc(8px + 1vmin);
@@ -51,7 +33,7 @@
 
 /* Render Links */
 .content-section {
-  padding: 1em;
+  padding: 0.5em;
   border-top: 1px dashed whitesmoke;
 }
 
@@ -59,20 +41,18 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 1em;
 }
 
 .content-secondary {
   display: flex;
   flex-direction: column;
-  flex: 25%;
-  padding: 1em;
-  padding-bottom: 2em;
+  flex: 20%;
+  padding: 0.8em;
   justify-content: space-evenly;
 }
 
 .content-image {
-  width: calc(16px + 6vw);
+  width: calc(16px + 4vw);
   border-radius: 8px;
 }
 
@@ -80,9 +60,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  flex: 16%;
   justify-content: center;
-  align-items: center;
 }
 
 .tag-button {
