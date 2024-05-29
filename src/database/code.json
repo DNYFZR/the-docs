@@ -10,13 +10,25 @@
       "description" : "Practical introduction to React using Javascript or Typescript",
       "link" : "https://handsonreact.com/docs/",
       "image" : "https://skillicons.dev/icons?i=react",
-      "tags" : ["Programming", "Typescript", "Javascript"]
+      "tags" : ["Programming", "Typescript", "React"]
+    },
+    "Typescript React Cheatsheets" : {
+      "description" : "Cheatsheets for experienced React developers getting started with TypeScript",
+      "link" : "https://react-typescript-cheatsheet.netlify.app/docs/basic/setup",
+      "image" : "https://skillicons.dev/icons?i=react",
+      "tags" : ["Programming", "Typescript", "React"]
     }
   },
   "Rust" : {
     "Intro to Rust" : {
       "description" : "Setup & overview of the Rust programming language",
       "link" : "https://blog.logrocket.com/getting-up-to-speed-with-rust/",
+      "image" : "https://skillicons.dev/icons?i=rust",
+      "tags" : ["Programming", "Rust", "Software Engineering"]
+    },
+    "Comprehensive Rust" : {
+      "description" : "Google engineering intro to Rust",
+      "link" : "https://google.github.io/comprehensive-rust/index.html",
       "image" : "https://skillicons.dev/icons?i=rust",
       "tags" : ["Programming", "Rust", "Software Engineering"]
     },
@@ -37,15 +49,29 @@
       "link" : "https://github.com/rust-unofficial/awesome-rust",
       "image" : "https://skillicons.dev/icons?i=rust",
       "tags" : ["Programming", "Rust", "Software Engineering", "GitHub"]
+    },
+    "Teach-RS" : {
+      "description" : "",
+      "link" : "https://github.com/tweedegolf/teach-rs",
+      "image" : "https://skillicons.dev/icons?i=rust",
+      "tags" : ["Programming", "Rust", "Software Engineering"]
+    }
+  },
+  "Go" : {
+    "Learning Go" : {
+      "description" : "Intro to Go programming & syntax",
+      "link" : "https://github.com/TannerGabriel/learning-go",
+      "image" : "https://skillicons.dev/icons?i=go",
+      "tags" : ["Programming", "Go", "Software Engineering"]
+    },
+    "Learn Go with Tests" : {
+      "description" : "Beginner friendly intro to Go, including testing & projects",
+      "link" : "https://quii.gitbook.io/learn-go-with-tests",
+      "image" : "https://skillicons.dev/icons?i=go",
+      "tags" : ["Programming", "Go", "Software Engineering"]
     }
   },
   "Python" : {
-    "Ultimate FastAPI" : {
-      "description" : "Extensive tutorial, covering full stack development using FastAPI and React",
-      "link" : "https://christophergs.com/tutorials/ultimate-fastapi-tutorial-pt-1-hello-world/",
-      "image" : "https://skillicons.dev/icons?i=fastapi",
-      "tags" : ["Programming", "Software Engineering", "Python", "Typescript", "Javascript", "React"]
-    },
     "OOP Design Patterns (Python)" : {
       "description" : "Guide through implementation of common design patterns in Python",
       "link" : "https://python-patterns.guide/",
@@ -63,6 +89,14 @@
       "link" : "https://makemeanalyst.com/",
       "image" : "https://skillicons.dev/icons?i=regex",
       "tags" : ["Programming", "Python", "R", "Data Science"]
+    }
+  },
+  "Dotnet" : {
+    "Intro to Web Development" : {
+      "description" : "Intro course from MS, covering going from setup to deployment on Azure",
+      "link" : "https://github.com/dotnet/intro-to-dotnet-web-dev",
+      "image" : "https://skillicons.dev/icons?i=azure",
+      "tags" : ["Software Engineering", "Dotnet"]
     }
   }
 }
