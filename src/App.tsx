@@ -1,33 +1,74 @@
 // Application UI Container & Navigation 
-import "./styles/App.css"
-import logo from "./assets/documents_icon.png"
-import ComponentSwitch, { SwitchMap } from "./components/ContentSwitch";
-import DisplayResult from "./components/SearchData";
+import "./App.css"
+import logo from "/documents_icon.png"
+import data from "./database.json";
+import React from "react";
 
-import data_ai from "./database/ai.json";
-import data_api from "./database/api.json";
-import data_code from "./database/code.json";
-import data_devops from "./database/devops.json";
-import data_swe from "./database/swe.json";
-import data_read from "./database/reading.json"
+interface DatabaseNode {
+  [key : string] : {
+    description : string;
+    link: string;
+    image: string;
+    tags: string[];
+  }
+}
 
-const pageMap: SwitchMap = {
-  "AI": () => <DisplayResult data={data_ai} />,
-  "APIs" :() => <DisplayResult data={data_api} />,
-  "Coding": () => <DisplayResult data={data_code} />,
-  "Deployment": () => <DisplayResult data={data_devops} />,
-  "Engineering": () => <DisplayResult data={data_swe} />,
-  "Reading": () => <DisplayResult data={data_read} />,
-};
+interface Database {
+  [primaryKey : string] : DatabaseNode
+}
 
-function App() {
+const App: React.FC = () => {
+  // Database setup
+  const database = data as Database;
+  const database_pks = Object.keys(database);
+
+  // User selection hooks
+  const [activeSection, setActiveSection] = React.useState<string>(database_pks[0]);
+  const [activeData, setActiveData] = React.useState<DatabaseNode>(database[activeSection]);
+
+  // Event handlers
+  const handleSelectChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    setActiveSection(event.target.value);
+    setActiveData(database[event.target.value]);
+  };
+
   return (
     <>
-      <img className="logo" src={logo}></img>    
-      <ComponentSwitch cmap={pageMap} />
+      <div  className="app-header">
+        <img className="logo" src={logo}></img>    
+        
+        {/* <h2>The Docs</h2> */}
+
+        <select className="content-control" value={activeSection} onChange={handleSelectChange}>
+          {database_pks.map((k) => <option value={k}>{k}</option>)}
+        </select>  
+      </div>
+     
+      <div key={activeSection} className='content-primary'>
+        {Object.keys(activeData).map((key) => (
+          
+          <div key={key} className='content-secondary'>
+            <h3>{key}</h3>
+            
+            <a href={activeData[key].link} target='_blank'>
+              <img className='content-image' src={activeData[key].image} />
+            </a>
+
+            <p>{activeData[key].description}</p>
+            
+            <div className='content-tags'>
+              {activeData[key].tags.map((tag) => (
+                <button className='tag-button' key={tag}>{tag}</button>
+              ))}
+            </div>
+          
+          </div>
+        
+        ))}
+      </div>
     </>
-  )
-}
+  );
+};
 
 export default App
 

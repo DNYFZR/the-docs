@@ -32,6 +32,21 @@
 
 
 /* Render Links */
+.content-control {
+  font-size: large;
+  border-radius: 16px;
+  background-color: rgba(5, 37, 92);
+  outline: none;
+}
+
+.app-header {
+  padding-bottom: 1vw;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
 .content-section {
   padding: 0.5em;
   border-top: 1px dashed whitesmoke;
@@ -46,7 +61,7 @@
 .content-secondary {
   display: flex;
   flex-direction: column;
-  flex: 20%;
+  flex: 25%;
   padding: 0.8em;
   justify-content: space-evenly;
 }
@@ -54,6 +69,7 @@
 .content-image {
   width: calc(16px + 4vw);
   border-radius: 8px;
+  margin: 0 auto;
 }
 
 .content-tags {
@@ -67,4 +83,8 @@
   background-color: rgb(157, 117, 16);
   font-size: small;
   flex-wrap: nowrap;
+}
+
+.content-description {
+  text-align: center;
 }
